@@ -25,7 +25,7 @@ app.listen(3000, () => {
 );
 
 // req is data coming in from the client, res is data going out to the client 
-// best practice to use separat files for routes 
+// best practice to use separate files for routes 
 app.use('/api/user', userRouter);
 app.use('/api/auth', authRouter);
 
